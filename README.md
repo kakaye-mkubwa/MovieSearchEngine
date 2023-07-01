@@ -34,7 +34,7 @@ descriptions of the movies are stored in separate-chaining hash tables.
 
 
 ##### Input Files
-1. **data.txt** - txt file with test data
+1. **data.txt** - txt file with test data, it defines the movie titles and their descriptions
 2. **dataSample.txt** - txt file containing a subset of the test data
 3. **noisewords.txt** - txt file containing some of the words regarded as noise words
 
@@ -54,5 +54,8 @@ Alternatively, you can run this program from the terminal, by:
             javac *.java
             java Driver
             
+You can vary the values of variables, `word1 and word2` in order to search for
+different strings in the movie descriptions
+
 #### Programming Languages Used
 1. **Java**
